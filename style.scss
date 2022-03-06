@@ -1,7 +1,5 @@
-h1 {
-    color: red;
-}
-
-span {
-    color: orange;
-}
+@import "./css/variables";
+@import "./css/global";
+@import "./css/header";
+@import "./css/main";
+@import "./css/formularios";

@@ -1,0 +1,31 @@
+header {
+    background-image:$gradient;
+    font-size:$textbase;
+
+nav {
+max-width: 1200px;
+margin: 0 auto;
+padding: 25px 0;
+
+ul {
+    list-style: none;
+    display: flex;
+
+li {
+margin: 0 10px;
+
+a {
+color:$colorheader !important;
+text-decoration: none;
+transition: 0.3s all ease;
+
+&:hover {
+color:$colorsecondary;
+border-bottom: 2px solid $colorheadersecond;
+                } 
+            }
+        }
+    }
+}
+
+}   
