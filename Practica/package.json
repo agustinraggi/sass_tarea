@@ -1,0 +1,11 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss css/style.min.css -w --no-source-map -s compressed"
+  },
+  "author": "Sebastián Sánchez",
+  "license": "ISC"
+}
